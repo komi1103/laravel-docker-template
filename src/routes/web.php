@@ -13,3 +13,4 @@
 
 //getメソッドの第一引数がURIを示す
 Route::get('/todo', 'TodoController@index');
+Route::get('/todo/create', 'TodoController@create'); 
